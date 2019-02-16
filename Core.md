@@ -61,7 +61,7 @@ Using four rows of computer keys, the two-row virtual MIDI keyboard spans approx
 
 Currently only the QWERTY (US) layout is supported, but other keyboard layouts may function similarly.
 
-![QWERTY Keyboard with VCV MIDI Keyboard overlaid](./images/core/qwerty.png)
+![QWERTY Keyboard with VCV MIDI Keyboard overlaid](./images/Core/qwerty.png)
 
 ### MIDI-1
 ![Core MIDI-1](images/Core/MIDI-1.m.png)
