@@ -56,10 +56,12 @@ The *gamepad* MIDI driver allows USB video game controllers to be used for CV an
 Gamepad buttons are mapped to MIDI note gates starting with `C-1`, `C#-1`, `D-1`, etc.
 Joystick axes are mapped to MIDI CC messages starting with `CC0`, `CC1`, `CC2`, etc. with a nonstandard MIDI extension that allows negative CC values to be used.
 
-The *computer keyboard* MIDI driver generates MIDI notes when keys are presses while the Rack window is focused.
-Using two rows of keys, the virtual MIDI keyboard spans approximately 2½ octaves and can be shifted down and up with the `` ` `` and `1` keys.
+The *computer keyboard* MIDI driver generates MIDI notes when keys are presses while the Rack window is focused. 
+Using four rows of computer keys, the two-row virtual MIDI keyboard spans approximately 2½ octaves and can be shifted down and up with the `` ` `` and `1` keys.
+
 Currently only the QWERTY (US) layout is supported, but other keyboard layouts may function similarly.
 
+![QWERTY Keyboard with VCV MIDI Keyboard overlaid](./images/core/qwerty.png)
 
 ### MIDI-1
 ![Core MIDI-1](images/Core/MIDI-1.m.png)
